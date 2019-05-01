@@ -363,6 +363,10 @@ The value is 1 for A and -1 for B
 
 2. What is the value of Psi_6 for a very large liquid configuration with eta = 0.42, (N very large, all correlation lengths much smaller than system size)?
 
+```
+The value should be 0, because for eta 0.42 the distance between the disks is on average 2.8, so there are no neighboring disks
+```
+
 ## C3 (bonus point, not part of the grade)
 
 It can be shown numerically that the average of |Psi_6| is finite for very large systems of hard disks at density eta > 0.72.
