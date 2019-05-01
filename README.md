@@ -284,7 +284,12 @@ show_conf(current, sigma, "Multiple disks", "b2.png")
 Run my_markov_disks.py for N = 64, n_steps = 10000, at eta = 0.42 from the square lattice initial condition, then repeatedly using as initial configuration the final configuration of the previous run. 
 
 * Print the initial configuration (as a graphics file) of the sequence of runs (set n_steps = 0 to plot it)
+![B4 Answer](/b4-initial.png)
+
 * Print the final configuration (as a graphics file) of the entire sequence of run.
+
+![B4 Answer](/b4-final.png)
+
 * Explain what you see (describe the final configuration and how the simulation got there).
 
 ## B5
