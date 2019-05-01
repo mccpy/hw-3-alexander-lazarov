@@ -16,7 +16,7 @@ current = [[0.25, 0.25], [0.75, 0.25], [0.25, 0.75], [0.75, 0.75]]
 delta = 0.1
 n_tries = 10000
 eta = 0.4
-sigma = math.sqrt(eta) / len(current)
+sigma = math.sqrt(eta / (len(current) * math.pi))
 
 for steps in range(n_tries):
     a = random.choice(current)
