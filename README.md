@@ -75,11 +75,11 @@ f.close()
 
 Run Preparation Program 2, then run it a second time. Explain in a few words each:
 
-* What does the "if os.path.isfile(filename)" condition test?
-* What is the difference between "f = open(filename, 'r')" and "f = open(filename, 'w')"?
-* What is the meaning of "a, b = line.split()"
-* What is the meaning of "f.write(str(a[0]) + ' ' + str(a[1]) + '\n')", and in particular of the "\n"?
-* What is this program's potential use?
+* What does the "if os.path.isfile(filename)" condition test? - it tests if `disk_configuration.txt` already exists
+* What is the difference between "f = open(filename, 'r')" and "f = open(filename, 'w')"? - the first one opens the file in read mode, the later - in write mode
+* What is the meaning of "a, b = line.split()" - it splits the X and Y coordinates for each line of the file
+* What is the meaning of "f.write(str(a[0]) + ' ' + str(a[1]) + '\n')", and in particular of the "\n"? - it writes the X and Y coordinates, each on a new line ("\n" = new line)
+* What is this program's potential use? - it creates 3 random disks configurations and saves it to disk (unless the file already exists)
 
 ## B
 
