@@ -292,6 +292,8 @@ Run my_markov_disks.py for N = 64, n_steps = 10000, at eta = 0.42 from the squar
 
 * Explain what you see (describe the final configuration and how the simulation got there).
 
+This is a sumulation of an infinite box of disks, it got there by randomly moving one diska at a time
+
 ## B5
 
 Run my_markov_disks.py for N = 64, n_steps = 10000, at eta = 0.72 from the square lattice initial condition, then at least ten times using as initial configuration the final configuration of the previous run.
