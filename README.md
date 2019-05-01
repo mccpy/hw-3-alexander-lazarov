@@ -299,9 +299,13 @@ This is a sumulation of an infinite box of disks, it got there by randomly movin
 Run my_markov_disks.py for N = 64, n_steps = 10000, at eta = 0.72 from the square lattice initial condition, then at least ten times using as initial configuration the final configuration of the previous run.
 
 * Print at least one intermediate configuration (as graphics files) of the entire run (To upload several intermediate configurations, you may join the graphics files into one big file).
-* Print the final configuration of the entire sequence of runs.
-* Explain what you see (give some physical explanation of what the configurations look like).
+![B5 Answer](/b5-interm.png)
 
+* Print the final configuration of the entire sequence of runs.
+![B5 Answer](/b5-interm.png)
+
+* Explain what you see (give some physical explanation of what the configurations look like).
+The density is so big so it is impossible for two disks to swap their positions. It is similar to solid objects in real life.
 
 ## C
 
