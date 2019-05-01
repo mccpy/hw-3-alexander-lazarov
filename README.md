@@ -356,6 +356,11 @@ Psi_6=1/N \sum_i psi_6(i)
 (NB: Note the difference between Psi (capital letter) and psi.)
 
 1. What is the value of Psi_6 for the two configurations A and B in figure lattices_base_tip.png? we suppose that they continue up to infinity.
+
+```
+The value is 1 for A and -1 for B
+```
+
 2. What is the value of Psi_6 for a very large liquid configuration with eta = 0.42, (N very large, all correlation lengths much smaller than system size)?
 
 ## C3 (bonus point, not part of the grade)
