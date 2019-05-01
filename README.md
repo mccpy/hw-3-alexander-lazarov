@@ -36,11 +36,11 @@ show_conf(L, sigma, 'test graph', 'one_disk.png')
 
 Download (cut-and-paste) and run Preparation Program 1. Explain in a few words each:
 
-* Which geometrical object does it draw?
-* What is the color of the object, and where is it specified?
+* Which geometrical object does it draw? - it draws 9 circles, only 4 of which are visible
+* What is the color of the object, and where is it specified? - the circles are red
 * How does it implement periodic boundary conditions?
-* What makes that you can see it on the computer screen?
-* Does this program create a file? What is this file's name? How would you change it?
+* What makes that you can see it on the computer screen? - the `pylab.show()` method call
+* Does this program create a file? What is this file's name? How would you change it? - it creates a file called `one_disk.png`, I'd change it to `multiple_disks.png`
 
 ## A2
 
