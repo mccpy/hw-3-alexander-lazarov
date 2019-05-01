@@ -324,9 +324,16 @@ NB: Note that the local order parameter is called psi (in small letters).
 Consider the disks a, b, and c, the central disks in the following figure confs_abc.png.
 
 1. What is the value of psi_6(a) (a complex number)?
+psi_6(a) = (1-6.123233995736765e-16j) ~ 1
+
 2. What is the value of psi_6(b) (a complex number)?
+psi_6(b) = (-1+4.387286062550369e-16j) ~ -1
+
 3. What is the value of psi_6(c) (a complex number)?
+psi_6(c) (1.1176449493811067e-15+1j) ~ 1i
+
 4. Compute psi_6(a) + psi_6(b) (a complex number).
+psi_6(a) + psi_6(b) -1.735947933186396e-16j ~ 0
 
 ## C2
 
